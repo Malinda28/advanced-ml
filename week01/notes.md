@@ -173,3 +173,4 @@ Loss_min ────► * <─────────────   <-- Bottom
                │
                ▼
               β* (Beta Star: The parameter value that gives Loss_min)
+
