@@ -3,10 +3,8 @@
 ## Key Topics
 - What is Machine Learning - Components
 - ML Subdomains types
-- Septs of ML workflow
+- Steps of ML workflow
 - Linear Regression
--
-
 
 ### 1. What is Machine Learning - Components
 
@@ -51,7 +49,7 @@ x₂ ---> y₂
 
 <!-- ** Diff of Error and lost function  -->
 
-## Septs of ML workflow
+## Steps of ML workflow
 
 1. Data Collection
 2. Data Preprocessing
@@ -173,4 +171,28 @@ Loss_min ────► * <─────────────   <-- Bottom
                │
                ▼
               β* (Beta Star: The parameter value that gives Loss_min)
+
+```
+
+## Coding 
+
+### Setup Workflow
+``` txt
+Create environment
+       ↓
+Activate environment
+       ↓
+Install Poetry
+       ↓
+Initialize Poetry project
+       ↓
+Add NumPy + Pandas
+```
+| Command                     | Action                                                                                  |
+| --------------------------- | --------------------------------------------------------------------------------------- |
+| `python3.12 -m venv .venv`  | **Creates** a Python virtual environment named `.venv` using Python 3.12                |
+| `source .venv/bin/activate` | **Activates** the `.venv` virtual environment                                           |
+| `pip3 install poetry`       | **Installs Poetry** inside the currently active virtual environment                     |
+| `poetry init`               | **Creates** a `pyproject.toml` file and interactively configures the project            |
+| `poetry add numpy pandas`   | **Installs NumPy and Pandas** and adds them as project dependencies in `pyproject.toml` |
 
